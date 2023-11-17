@@ -1,7 +1,7 @@
 import Head from "next/head";
 import Link from "next/link";
 
-export default function Home() {
+export default function PageTwo() {
   return (
     <>
       <Head>
@@ -11,8 +11,8 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
-        <h2>Page: One</h2>
-        <Link href="/two">Go to page two please</Link>
+        <h2>Page: Two</h2>
+        <Link href="/">Take me back to page one</Link>
       </main>
     </>
   );
